@@ -1,0 +1,9 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://peer0:8760/eureka/,http://peer1:8761/eureka/,http://peer2:8762/eureka/
+server:
+  port: 8000
+spring:
+  application:
+    name: computing-service
