@@ -3,11 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example.demo</groupId>
-    <artifactId>demo-02-service-producer</artifactId>
+    <artifactId>demo-03-service-consumer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <description>Spring Cloud Demo for Service Producer</description>
+    <description>Spring Cloud Demo for Service Consumer</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -19,7 +19,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <main.class>com.example.demo.ComputingServiceProducer</main.class>
+        <main.class>com.example.demo.ComputingServiceConsumer</main.class>
     </properties>
 
     <dependencies>
